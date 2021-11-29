@@ -10,11 +10,11 @@
 //
 import Foundation
 
-// Volume of a board foot in inch³.
-let boardFootVol = 144.0
-
 // Calculates the length of a board foot with given width and height
 func lengthCalculation(width: Double, height: Double) -> Double {
+    // Volume of a board foot in inch³.
+    let boardFootVol = 144.0
+
     return boardFootVol / width / height
 }
 
